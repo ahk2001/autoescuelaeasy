@@ -1,0 +1,3235 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autoescuela EASY | Jerez de la Frontera · #hazlofácil · 82% Aprobados Práctico DGT</title>
+  <meta name="description" content="Autoescuela EASY (EASY Centro de Formación) en Av. de Nazaret, 48, Jerez de la Frontera (Cádiz). 82% de aprobados en examen práctico B (DGT) y 4.9★ en Google. Permiso B en Renault Mégane, motos AM/A1/A2/A, Camión C, Tráiler C+E, Autobús D, CAP, Tacógrafo y formación FUNDAE." />
+  <meta name="keywords" content="Autoescuela EASY, EASY Centro de Formación, autoescuela Jerez de la Frontera, permiso B Jerez, carnet moto A2 Jerez, permiso C camión Jerez, CAP Jerez, Av de Nazaret 48 Jerez, autoescuela Los Albarizones, FUNDAE autoescuela Cádiz" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0019FB" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="supported-color-schemes" content="dark" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Autoescuela EASY | Jerez de la Frontera · #hazlofácil" />
+  <meta property="og:description" content="Tu carnet a la primera en Jerez: 82% de aprobados en el examen práctico B (DGT) y 4.9★ en Google. Coche, moto, camión, autobús, CAP y FUNDAE." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:image" content="assets/logo.png" />
+
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <link rel="shortcut icon" href="assets/favicon.png" />
+
+  <!-- Google Fonts: Inter Tight, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter+Tight:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ==========================================================================
+       1. SISTEMA DE DISEÑO EDITORIAL — AUTOESCUELA EASY (JEREZ DE LA FRONTERA)
+       ========================================================================== */
+    :root {
+      color-scheme: dark;
+      supported-color-schemes: dark;
+      -webkit-color-scheme: dark;
+      forced-color-adjust: none;
+
+      /* Paleta Oficial Extraída del Logotipo y Dossiê Autoescuela EASY */
+      --easy-blue: #0019FB;
+      --easy-blue-deep: #0011B8;
+      --easy-red: #E62E2D;
+      --easy-gold: #FFD600;
+
+      /* Tokens Estructurales (Mapeo del Sistema Editorial) */
+      --delgado-navy: #0019FB;
+      --delgado-navy-deep: #040711;
+      --delgado-navy-surface: #070D1F;
+      --delgado-navy-card: #0B132B;
+      --delgado-navy-elevated: #111D40;
+      --delgado-green: #0011B8;
+      --delgado-novel: #0019FB;
+      --delgado-sky: #4D7CFE;
+      --delgado-sky-glow: #38BDF8;
+      --delgado-wa: #25D366;
+      --delgado-wa-dark: #1EBE5D;
+
+      /* Mapeo Editorial de Compatibilidad */
+      --brand-blue: #4D7CFE;
+      --brand-blue-dark: #0019FB;
+      --brand-blue-soft: rgba(0, 25, 251, 0.28);
+      --brand-blue-line: rgba(77, 124, 254, 0.24);
+
+      --brand-yellow: #FFD600;
+      --brand-yellow-gold: #25D366;
+      --brand-yellow-soft: rgba(255, 214, 0, 0.16);
+
+      --pure-black: #040711;
+      --black-surface: #070D1F;
+      --black-card: #0B132B;
+      --pure-white: #FFFFFF;
+
+      --neutral-canvas: #040711;
+      --neutral-warm: #070D1F;
+      --neutral-border: rgba(77, 124, 254, 0.18);
+      --neutral-border-dark: rgba(255, 255, 255, 0.16);
+
+      /* Tipografía de Alto Contraste */
+      --text-black: #FFFFFF;
+      --text-body: #E2E8F0;
+      --text-muted: #94A3B8;
+      --text-white: #FFFFFF;
+      --text-on-dark-muted: #CBD5E1;
+
+      --font-display: 'Inter Tight', sans-serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+      --container-max: 1280px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: var(--font-sans);
+      color: var(--text-body);
+      background-color: var(--neutral-canvas);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: clip;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: clip;
+      line-height: 1.65;
+      background-color: var(--neutral-canvas);
+      color: var(--text-body);
+    }
+
+    main {
+      display: block;
+      width: 100%;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    @media (min-width: 640px) {
+      .container {
+        padding: 0 1.5rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        padding: 0 3.5rem;
+      }
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--text-black);
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      color: var(--text-body);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s var(--ease-editorial);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .section-editorial-padding {
+      padding: 6.5rem 0;
+    }
+
+    @media (min-width: 1024px) {
+      .section-editorial-padding {
+        padding: 8rem 0;
+      }
+    }
+
+    /* Cabecera Editorial de Sección */
+    .section-editorial-header {
+      max-width: 860px;
+      margin-bottom: 4rem;
+    }
+
+    .section-editorial-index {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--delgado-sky-glow);
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 1.15rem;
+    }
+
+    .section-editorial-index::before {
+      content: "";
+      width: 20px;
+      height: 2px;
+      background: var(--easy-blue);
+      box-shadow: 0 0 10px rgba(0, 25, 251, 0.85);
+    }
+
+    .section-editorial-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 4.4vw, 3.7rem);
+      font-weight: 800;
+      line-height: 1.06;
+      letter-spacing: -0.03em;
+      color: #FFFFFF;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-editorial-title em {
+      font-style: normal;
+      color: var(--delgado-sky);
+    }
+
+    .section-editorial-desc {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      max-width: 720px;
+    }
+
+    /* Botones Editoriales */
+    .btn-editorial {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 28px;
+      border-radius: 9999px;
+      font-weight: 800;
+      font-size: 0.96rem;
+      transition: all 0.25s var(--ease-editorial);
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .btn-editorial:active {
+      transform: scale(0.98);
+    }
+
+    .btn-wa-primary {
+      background: var(--delgado-wa);
+      color: #03150B !important;
+      border: 1.5px solid var(--delgado-wa);
+      box-shadow: 0 10px 28px rgba(37, 211, 102, 0.3);
+    }
+
+    .btn-wa-primary:hover {
+      background: #34E376;
+      border-color: #34E376;
+      transform: translateY(-2px);
+      box-shadow: 0 14px 34px rgba(37, 211, 102, 0.45);
+    }
+
+    .btn-blue {
+      background: #FFFFFF;
+      color: var(--easy-blue-deep) !important;
+      border: 1.5px solid #FFFFFF;
+    }
+
+    .btn-blue:hover {
+      background: var(--easy-blue);
+      color: #FFFFFF !important;
+      border-color: var(--delgado-sky);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(0, 25, 251, 0.45);
+    }
+
+    .btn-yellow {
+      background: var(--easy-gold);
+      color: #040711 !important;
+      border: 1.5px solid var(--easy-gold);
+    }
+
+    .btn-yellow:hover {
+      background: var(--delgado-wa);
+      color: #03150B !important;
+      border-color: var(--delgado-wa);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-white {
+      background: rgba(11, 19, 43, 0.65);
+      color: #FFFFFF;
+      border: 1.5px solid rgba(255, 255, 255, 0.38);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .btn-outline-white:hover {
+      background: #FFFFFF;
+      color: var(--easy-blue) !important;
+      border-color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       2. TOP EDITORIAL NAV & FULLSCREEN OVERLAY + REVELACIÓN TRAS VIDEO INTRO
+       ========================================================================== */
+    .editorial-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 16px 0;
+      pointer-events: none;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-18px);
+      transition: opacity 0.85s var(--ease-editorial), transform 0.85s var(--ease-editorial), visibility 0.85s ease, background 0.3s ease, padding 0.3s ease;
+    }
+
+    @media (min-width: 768px) {
+      .editorial-nav {
+        padding: 20px 0;
+      }
+    }
+
+    body.video-intro-done .editorial-nav {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .editorial-nav.scrolled {
+      background: rgba(4, 7, 17, 0.94);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(77, 124, 254, 0.22);
+      padding: 12px 0;
+    }
+
+    .editorial-nav-inner {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    @media (min-width: 640px) {
+      .editorial-nav-inner {
+        padding: 0 1.75rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .editorial-nav-inner {
+        padding: 0 3.5rem;
+      }
+    }
+
+    .editorial-nav-inner > * {
+      pointer-events: auto;
+    }
+
+    /* Logotipo Oficial Transparente Sem Fundo Branco */
+    .editorial-brand-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      flex-shrink: 0;
+      background: transparent;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      transition: transform 0.25s ease;
+    }
+
+    .editorial-brand-link:hover {
+      transform: translateY(-1px) scale(1.02);
+    }
+
+    .editorial-brand-logo {
+      height: 58px;
+      width: auto;
+      max-width: 290px;
+      object-fit: contain;
+      display: block;
+      filter: drop-shadow(0 2px 10px rgba(255, 255, 255, 0.25)) brightness(1.15);
+      transition: height 0.3s ease;
+    }
+
+    .editorial-nav.scrolled .editorial-brand-logo {
+      height: 48px;
+    }
+
+    .nav-actions-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .editorial-menu-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: #FFFFFF;
+      padding: 9px 18px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .editorial-menu-btn:hover {
+      background: var(--easy-blue);
+      border-color: #FFFFFF;
+      transform: scale(1.03);
+    }
+
+    .editorial-burger-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.14);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+    }
+
+    .editorial-burger-icon span {
+      display: block;
+      width: 10px;
+      height: 1.6px;
+      background: #FFFFFF;
+      border-radius: 1px;
+    }
+
+    @media (max-width: 768px) {
+      .editorial-brand-link {
+        padding: 0;
+      }
+      .editorial-brand-logo {
+        height: 40px;
+        max-width: 210px;
+      }
+      .editorial-nav.scrolled .editorial-brand-logo {
+        height: 34px;
+      }
+      .editorial-menu-btn {
+        padding: 7px 14px;
+        font-size: 0.84rem;
+        gap: 8px;
+      }
+    }
+
+    /* Menu Overlay */
+    .editorial-overlay-menu {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 7, 17, 0.98);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      z-index: 1100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.35s var(--ease-editorial);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 28px 20px 36px;
+      overflow-y: auto;
+    }
+
+    @media (min-width: 768px) {
+      .editorial-overlay-menu {
+        padding: 36px 60px 44px;
+      }
+    }
+
+    .editorial-overlay-menu.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .overlay-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .overlay-close-btn {
+      color: #FFFFFF;
+      font-size: 0.92rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      cursor: pointer;
+    }
+
+    .overlay-close-btn:hover {
+      background: var(--delgado-wa);
+      color: #03150B;
+      border-color: var(--delgado-wa);
+    }
+
+    .overlay-nav-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+      max-width: 760px;
+      margin: auto 0;
+      padding: 1.5rem 0;
+    }
+
+    .overlay-nav-list a {
+      font-family: var(--font-sans);
+      font-size: clamp(1.2rem, 2.7vw, 1.85rem);
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      color: rgba(255, 255, 255, 0.82);
+      line-height: 1.25;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      transition: all 0.2s ease;
+    }
+
+    .overlay-nav-list a span.nav-index {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--delgado-sky-glow);
+      font-weight: 700;
+    }
+
+    .overlay-nav-list a:hover {
+      color: #FFFFFF;
+      transform: translateX(8px);
+    }
+
+    .overlay-bottom-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+      padding-top: 22px;
+      border-top: 1px solid rgba(77, 124, 254, 0.22);
+      color: #94A3B8;
+      font-size: 0.92rem;
+    }
+
+    /* ==========================================================================
+       3. HERO CINEMATOGRÁFICO CON VIDEO INTRO (SOLO VIDEO -> REVELACIÓN TOTAL)
+       ========================================================================== */
+    .hero-editorial {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      padding-bottom: clamp(42px, 7vh, 76px);
+      padding-top: 110px;
+      background: #02050B;
+    }
+
+    .hero-bg-stage {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      overflow: hidden;
+      pointer-events: none;
+      background: #02050B;
+    }
+
+    .hero-video-el {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      display: block;
+      filter: none;
+      transform: translateZ(0);
+      transition: filter 1.1s var(--ease-editorial);
+    }
+
+    .hero-video-mobile {
+      display: none;
+    }
+
+    .hero-video-desktop {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .hero-video-desktop {
+        display: none;
+      }
+      .hero-video-mobile {
+        display: block;
+      }
+    }
+
+    body.video-intro-done .hero-video-el {
+      filter: brightness(0.75) contrast(1.06);
+    }
+
+    .hero-vignette {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: linear-gradient(
+        to top,
+        rgba(4, 7, 17, 0.95) 0%,
+        rgba(4, 7, 17, 0.76) 38%,
+        rgba(4, 7, 17, 0.36) 68%,
+        rgba(4, 7, 17, 0.16) 100%
+      );
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 1s var(--ease-editorial);
+    }
+
+    body.video-intro-done .hero-vignette {
+      opacity: 1;
+    }
+
+    .hero-editorial-inner {
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1.25rem;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(36px);
+      transition: opacity 0.95s var(--ease-editorial), transform 0.95s var(--ease-editorial), visibility 0.95s ease;
+    }
+
+    @media (min-width: 768px) {
+      .hero-editorial-inner {
+        padding: 0 3.5rem;
+      }
+    }
+
+    body.video-intro-done .hero-editorial-inner {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .hero-lead-editorial {
+      max-width: 920px;
+    }
+
+    .hero-editorial-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 5.6vw, 4.75rem);
+      font-weight: 800;
+      line-height: 1.02;
+      letter-spacing: -0.035em;
+      color: #FFFFFF;
+      margin: 0;
+      text-shadow: 0 4px 28px rgba(0, 0, 0, 0.72);
+    }
+
+    .hero-editorial-title em {
+      font-style: normal;
+      color: #60A5FA;
+    }
+
+    @media (max-width: 768px) {
+      .hero-editorial {
+        padding-bottom: 84px;
+        padding-top: 96px;
+      }
+      .hero-editorial-inner {
+        padding: 0 1rem;
+      }
+    }
+
+    /* ==========================================================================
+       4. SECCIÓN DE MÉTRICAS EDITORIAL
+       ========================================================================== */
+    .metrics-section {
+      background: var(--delgado-navy-deep);
+      border-top: 1px solid rgba(77, 124, 254, 0.22);
+      border-bottom: 1px solid var(--neutral-border);
+      padding: 4.25rem 0;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.25rem;
+    }
+
+    @media (min-width: 640px) {
+      .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .metrics-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.75rem;
+      }
+    }
+
+    .metric-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-left: 2px solid rgba(0, 25, 251, 0.65);
+      padding-left: 1.6rem;
+      transition: border-color 0.25s ease;
+    }
+
+    .metric-item:hover {
+      border-left-color: var(--delgado-wa);
+    }
+
+    .metric-number {
+      font-family: var(--font-display);
+      font-size: 2.65rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      line-height: 1.05;
+      margin-bottom: 0.55rem;
+    }
+
+    .metric-number.is-accent {
+      color: var(--delgado-sky-glow);
+    }
+
+    .metric-number.is-gold {
+      color: var(--easy-gold);
+    }
+
+    .metric-label {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 0.3rem;
+    }
+
+    .metric-sub {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       5. LOS 3 PILARES (GLASSMORPHISM + FONDO ATMOSFÉRICO AZUL ELÉCTRICO)
+       ========================================================================== */
+    .pillars-section {
+      position: relative;
+      background: #050A18;
+      overflow: hidden;
+      border-bottom: 1px solid var(--neutral-border);
+    }
+
+    .pillars-animated-bg {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .pillars-grid-mesh {
+      position: absolute;
+      inset: -50% 0 -50% 0;
+      background-image:
+        linear-gradient(to right, rgba(77, 124, 254, 0.06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(77, 124, 254, 0.06) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: radial-gradient(ellipse 75% 65% at 50% 50%, #000 35%, transparent 85%);
+      -webkit-mask-image: radial-gradient(ellipse 75% 65% at 50% 50%, #000 35%, transparent 85%);
+      opacity: 0.85;
+      animation: meshFloat 22s linear infinite;
+    }
+
+    @keyframes meshFloat {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(48px); }
+    }
+
+    .pillars-glow-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(85px);
+      -webkit-filter: blur(85px);
+      opacity: 0.28;
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+
+    .orb-1 {
+      width: 540px;
+      height: 540px;
+      background: radial-gradient(circle, rgba(0, 25, 251, 0.65) 0%, rgba(0, 17, 184, 0.35) 55%, transparent 72%);
+      top: -15%;
+      left: -10%;
+      animation: orbDrift1 20s ease-in-out infinite alternate;
+    }
+
+    .orb-2 {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.45) 0%, rgba(0, 25, 251, 0.32) 55%, transparent 72%);
+      bottom: -20%;
+      right: -10%;
+      animation: orbDrift2 24s ease-in-out infinite alternate;
+    }
+
+    .orb-3 {
+      width: 440px;
+      height: 440px;
+      background: radial-gradient(circle, rgba(230, 46, 45, 0.32) 0%, rgba(0, 25, 251, 0.22) 55%, transparent 75%);
+      top: 30%;
+      left: 42%;
+      animation: orbDrift3 18s ease-in-out infinite alternate;
+    }
+
+    @keyframes orbDrift1 {
+      0% { transform: translate3d(0, 0, 0) scale(1); }
+      100% { transform: translate3d(80px, 110px, 0) scale(1.08); }
+    }
+    @keyframes orbDrift2 {
+      0% { transform: translate3d(0, 0, 0) scale(1); }
+      100% { transform: translate3d(-90px, -110px, 0) scale(1.06); }
+    }
+    @keyframes orbDrift3 {
+      0% { transform: translate3d(0, 0, 0) scale(0.95); }
+      100% { transform: translate3d(50px, -40px, 0) scale(1.1); }
+    }
+
+    .pillars-light-streak {
+      position: absolute;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, rgba(77, 124, 254, 0.75), rgba(37, 211, 102, 0.65), transparent);
+      border-radius: 999px;
+      opacity: 0.45;
+    }
+
+    .streak-1 {
+      width: 420px;
+      top: 22%;
+      left: -20%;
+      animation: streakFly1 13s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+
+    .streak-2 {
+      width: 520px;
+      bottom: 25%;
+      right: -25%;
+      animation: streakFly2 16s cubic-bezier(0.4, 0, 0.2, 1) 4s infinite;
+    }
+
+    @keyframes streakFly1 {
+      0% { transform: translate3d(-100px, 0, 0) rotate(-10deg); opacity: 0; }
+      20% { opacity: 0.55; }
+      70% { opacity: 0.55; }
+      100% { transform: translate3d(calc(100vw + 200px), 120px, 0) rotate(-10deg); opacity: 0; }
+    }
+
+    @keyframes streakFly2 {
+      0% { transform: translate3d(100px, 0, 0) rotate(-6deg); opacity: 0; }
+      20% { opacity: 0.45; }
+      70% { opacity: 0.45; }
+      100% { transform: translate3d(calc(-100vw - 200px), -100px, 0) rotate(-6deg); opacity: 0; }
+    }
+
+    .pillars-editorial-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.5rem;
+      width: 100%;
+    }
+
+    @media (min-width: 1024px) {
+      .pillars-editorial-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.75rem;
+      }
+    }
+
+    .pillar-editorial-card {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(0, 25, 251, 0.18) 100%), rgba(7, 13, 31, 0.72);
+      backdrop-filter: blur(20px) saturate(160%);
+      -webkit-backdrop-filter: blur(20px) saturate(160%);
+      border: 1px solid rgba(77, 124, 254, 0.25);
+      border-top: 2px solid var(--easy-blue);
+      border-radius: 20px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.55);
+      transition: transform 0.35s var(--ease-editorial), border-color 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .pillar-editorial-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--delgado-wa);
+      box-shadow: 0 26px 52px -10px rgba(0, 0, 0, 0.72), 0 0 28px rgba(0, 25, 251, 0.24);
+    }
+
+    .pillar-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+
+    .pillar-icon-wrap {
+      width: 54px;
+      height: 54px;
+      border-radius: 15px;
+      background: rgba(0, 25, 251, 0.24);
+      border: 1px solid rgba(96, 165, 250, 0.45);
+      color: #93C5FD;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .pillar-editorial-card:hover .pillar-icon-wrap {
+      background: var(--easy-blue);
+      color: #FFFFFF;
+      transform: scale(1.06);
+    }
+
+    .pillar-badge-pill {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 5px 13px;
+      border-radius: 9999px;
+      border: 1px solid rgba(77, 124, 254, 0.32);
+    }
+
+    .pillar-editorial-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.48rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 0.8rem;
+      line-height: 1.25;
+    }
+
+    .pillar-editorial-card p {
+      font-size: 0.94rem;
+      color: #CBD5E1;
+      line-height: 1.68;
+      margin-bottom: 1.5rem;
+    }
+
+    .pillar-checklist {
+      border-top: 1px dashed rgba(77, 124, 254, 0.28);
+      padding-top: 1.15rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .pillar-checklist li {
+      font-size: 0.86rem;
+      color: #E2E8F0;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pillar-check-icon {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: rgba(37, 211, 102, 0.18);
+      color: #34D399;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 0.72rem;
+      font-weight: 800;
+    }
+
+    /* ==========================================================================
+       6. CATÁLOGO DE PERMISOS (MARQUEE INFINITO DOBLE)
+       ========================================================================== */
+    .permisos-section {
+      background: var(--delgado-navy-deep);
+      position: relative;
+      overflow: hidden;
+      padding: 6.5rem 0;
+      border-bottom: 1px solid var(--neutral-border);
+    }
+
+    .permisos-section .section-editorial-header {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2.5rem;
+    }
+
+    .permisos-section .section-editorial-desc {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .permisos-marquee-stage {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin: 2rem 0 0 0;
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 14%, black 86%, transparent 100%);
+      mask-image: linear-gradient(to right, transparent 0%, black 14%, black 86%, transparent 100%);
+    }
+
+    .permisos-marquee-row {
+      display: flex;
+      width: max-content;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .permisos-marquee-track {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      flex-shrink: 0;
+      will-change: transform;
+    }
+
+    .permisos-marquee-row:hover .permisos-marquee-track {
+      animation-play-state: paused;
+    }
+
+    .marquee-track-left {
+      animation: marqueeScrollLeft 36s linear infinite;
+    }
+
+    .marquee-track-right {
+      animation: marqueeScrollRight 40s linear infinite;
+    }
+
+    @keyframes marqueeScrollLeft {
+      0% { transform: translate3d(0, 0, 0); }
+      100% { transform: translate3d(-50%, 0, 0); }
+    }
+
+    @keyframes marqueeScrollRight {
+      0% { transform: translate3d(-50%, 0, 0); }
+      100% { transform: translate3d(0, 0, 0); }
+    }
+
+    .permiso-marquee-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3rem;
+      white-space: nowrap;
+    }
+
+    .permiso-marquee-name {
+      font-family: var(--font-display);
+      font-size: clamp(1.45rem, 2.8vw, 2.2rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      color: #64748B;
+      transition: color 0.25s ease, text-shadow 0.25s ease;
+    }
+
+    .permiso-marquee-link:hover .permiso-marquee-name {
+      color: var(--delgado-sky-glow);
+      text-shadow: 0 0 24px rgba(56, 189, 248, 0.45);
+    }
+
+    .permiso-marquee-sep {
+      color: var(--easy-blue);
+      font-size: 1.25rem;
+    }
+
+    /* ==========================================================================
+       7. FORMACIÓN PROFESIONAL (CAP / FUNDAE / TACÓGRAFO) Y EQUIPO NOMINAL
+       ========================================================================== */
+    .prof-editorial-section {
+      position: relative;
+      background: #050A18;
+      overflow: hidden;
+      border-bottom: 1px solid var(--neutral-border);
+    }
+
+    .prof-editorial-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.35rem;
+      max-width: 1200px;
+      margin: 0 auto 3rem auto;
+      width: 100%;
+    }
+
+    @media (min-width: 860px) {
+      .prof-editorial-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.75rem;
+      }
+    }
+
+    .prof-editorial-card {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(0, 25, 251, 0.18) 100%), rgba(7, 13, 31, 0.76);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(77, 124, 254, 0.24);
+      border-top: 2px solid var(--easy-blue);
+      border-radius: 18px;
+      padding: 1.85rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.3s var(--ease-editorial), border-color 0.3s ease;
+    }
+
+    .prof-editorial-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--delgado-wa);
+    }
+
+    .prof-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 0.9rem;
+      flex-wrap: wrap;
+    }
+
+    .prof-card-title-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .prof-icon-wrap {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(0, 25, 251, 0.25);
+      border: 1px solid rgba(96, 165, 250, 0.38);
+      color: #93C5FD;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .prof-editorial-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.32rem;
+      font-weight: 800;
+      color: #FFFFFF;
+    }
+
+    .prof-duration-pill {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--delgado-sky-glow);
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.28);
+    }
+
+    .prof-editorial-card p {
+      font-size: 0.92rem;
+      color: #CBD5E1;
+      line-height: 1.6;
+      margin-bottom: 1.1rem;
+    }
+
+    .prof-tags-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px 12px;
+      margin-bottom: 1.25rem;
+      padding-top: 0.85rem;
+      border-top: 1px dashed rgba(77, 124, 254, 0.26);
+    }
+
+    @media (min-width: 500px) {
+      .prof-tags-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .prof-tag-item {
+      font-size: 0.82rem;
+      color: #E2E8F0;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .prof-check-icon {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: rgba(37, 211, 102, 0.2);
+      color: #34D399;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 0.68rem;
+      font-weight: 800;
+    }
+
+    .prof-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .prof-meta-note {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #94A3B8;
+    }
+
+    /* Bloco Equipo Real (4 miembros nominales elogiados por alumnos) */
+    .team-family-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 640px) {
+      .team-family-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .team-family-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .team-member-card {
+      background: var(--delgado-navy-card);
+      border: 1px solid rgba(77, 124, 254, 0.22);
+      border-radius: 16px;
+      padding: 1.45rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .team-member-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--delgado-sky-glow);
+    }
+
+    .team-member-role {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--delgado-wa);
+    }
+
+    .team-member-name {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #FFFFFF;
+    }
+
+    .team-member-bio {
+      font-size: 0.86rem;
+      color: #CBD5E1;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 768px) {
+      .pillars-editorial-grid,
+      .prof-editorial-grid,
+      .team-family-grid {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        gap: 1rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.75rem;
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+      }
+
+      .pillars-editorial-grid::-webkit-scrollbar,
+      .prof-editorial-grid::-webkit-scrollbar,
+      .team-family-grid::-webkit-scrollbar {
+        display: none;
+      }
+
+      .pillars-editorial-grid > .pillar-editorial-card,
+      .prof-editorial-grid > .prof-editorial-card {
+        flex: 0 0 86%;
+        max-width: 86%;
+        scroll-snap-align: start;
+        opacity: 1 !important;
+        transform: none !important;
+        height: auto;
+      }
+
+      .team-family-grid > .team-member-card {
+        flex: 0 0 82%;
+        max-width: 82%;
+        scroll-snap-align: start;
+        opacity: 1 !important;
+        transform: none !important;
+        height: auto;
+      }
+    }
+
+    /* ==========================================================================
+       8. OPINIONES REALES (ROTATIVO DE 4 TESTIMONIOS VERIFICADOS EN GOOGLE)
+       ========================================================================== */
+    .reviews-editorial-section {
+      position: relative;
+      background: #030612;
+      color: #FFFFFF;
+      overflow: hidden;
+      padding: 6rem 0;
+      border-top: 1px solid var(--neutral-border);
+    }
+
+    .reviews-bg-stage {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .reviews-bg-stage video,
+    .reviews-bg-stage img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      filter: brightness(0.35) contrast(1.08);
+    }
+
+    .reviews-vignette {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: linear-gradient(180deg, rgba(4, 7, 17, 0.88) 0%, rgba(4, 7, 17, 0.45) 50%, rgba(4, 7, 17, 0.94) 100%);
+      pointer-events: none;
+    }
+
+    .reviews-content-wrap {
+      position: relative;
+      z-index: 10;
+      max-width: 940px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .reviews-editorial-section .section-editorial-header {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2.25rem;
+    }
+
+    .testimonial-carousel-stage {
+      position: relative;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 100%;
+      margin-bottom: 1.75rem;
+    }
+
+    .testimonial-slide {
+      grid-area: 1 / 1;
+      width: 100%;
+      display: flex;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(14px);
+      transition: opacity 0.45s var(--ease-editorial), transform 0.45s var(--ease-editorial), visibility 0.45s ease;
+    }
+
+    .testimonial-slide.is-active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateY(0);
+      z-index: 2;
+    }
+
+    .testimonial-card {
+      width: 100%;
+      height: 100%;
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 2.25rem 2.5rem;
+      background: rgba(11, 19, 43, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(77, 124, 254, 0.28);
+      border-radius: 20px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 640px) {
+      .testimonial-card {
+        padding: 1.5rem 1.25rem;
+      }
+    }
+
+    .testimonial-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 1.35rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .testimonial-stars-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: #FFFFFF;
+      flex-wrap: wrap;
+    }
+
+    .testimonial-stars-badge .stars {
+      color: var(--easy-gold);
+      font-size: 1.05rem;
+      letter-spacing: 2px;
+    }
+
+    .testimonial-stars-badge .score {
+      font-weight: 800;
+      font-family: var(--font-mono);
+    }
+
+    .testimonial-stars-badge .platform {
+      color: #94A3B8;
+      font-size: 0.82rem;
+    }
+
+    .testimonial-quote-svg {
+      color: var(--delgado-sky);
+      opacity: 0.85;
+      flex-shrink: 0;
+    }
+
+    .testimonial-quote-text {
+      font-size: clamp(1rem, 1.55vw, 1.16rem);
+      font-weight: 400;
+      line-height: 1.75;
+      color: #F8FAFC;
+      margin-bottom: 1.6rem;
+      flex-grow: 1;
+    }
+
+    .testimonial-author-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-top: auto;
+    }
+
+    .testimonial-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--easy-blue), var(--delgado-sky-glow));
+      border: 1.5px solid rgba(147, 197, 253, 0.55);
+      color: #FFFFFF;
+      font-weight: 800;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .testimonial-author-name {
+      font-size: 1.04rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .testimonial-verified-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #D1FAE5;
+      background: rgba(37, 211, 102, 0.16);
+      border: 1px solid rgba(37, 211, 102, 0.35);
+      padding: 2px 8px;
+      border-radius: 9999px;
+    }
+
+    .testimonial-author-meta {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: #94A3B8;
+    }
+
+    .testimonial-nav-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .testimonial-dots {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .testimonial-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.25);
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .testimonial-dot.is-active {
+      width: 28px;
+      background: var(--delgado-sky-glow);
+    }
+
+    .testimonial-arrows {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .testimonial-arrow-btn {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(77, 124, 254, 0.35);
+      color: #FFFFFF;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.05rem;
+      cursor: pointer;
+    }
+
+    .testimonial-arrow-btn:hover {
+      background: var(--easy-blue);
+      color: #FFFFFF;
+      border-color: #FFFFFF;
+    }
+
+    /* ==========================================================================
+       9. FAQ & PORTAL DE NOTAS DGT
+       ========================================================================== */
+    .faq-editorial-section {
+      background: var(--delgado-navy-deep);
+      padding: 5.5rem 0;
+      border-top: 1px solid var(--neutral-border);
+    }
+
+    .faq-editorial-container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .faq-editorial-item {
+      border-bottom: 1px solid rgba(77, 124, 254, 0.18);
+      padding: 1.4rem 0;
+    }
+
+    .faq-editorial-item:first-of-type {
+      border-top: 1px solid rgba(77, 124, 254, 0.18);
+    }
+
+    .faq-editorial-question {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      font-size: 1.08rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .faq-editorial-question:hover {
+      color: var(--delgado-sky-glow);
+    }
+
+    .faq-editorial-indicator {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(77, 124, 254, 0.32);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--delgado-sky-glow);
+      flex-shrink: 0;
+      transition: transform 0.25s ease, background 0.25s ease;
+    }
+
+    .faq-editorial-item.active .faq-editorial-indicator {
+      transform: rotate(45deg);
+      background: var(--delgado-wa);
+      color: #03150B;
+      border-color: var(--delgado-wa);
+    }
+
+    .faq-editorial-answer {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      font-size: 0.94rem;
+      color: #CBD5E1;
+      line-height: 1.65;
+      transition: max-height 0.4s var(--ease-editorial), opacity 0.3s ease, margin 0.3s ease;
+    }
+
+    .faq-editorial-item.active .faq-editorial-answer {
+      max-height: 300px;
+      opacity: 1;
+      margin-top: 0.85rem;
+    }
+
+    .dgt-results-banner {
+      margin-top: 3rem;
+      background: linear-gradient(135deg, #0011B8 0%, #071236 100%);
+      border: 1px solid rgba(77, 124, 254, 0.4);
+      border-radius: 18px;
+      padding: 1.75rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+    }
+
+    /* ==========================================================================
+       10. LOCALIZACIÓN EN JEREZ DE LA FRONTERA & HORARIOS
+       ========================================================================== */
+    .contact-editorial-section {
+      background: #050A18;
+      border-top: 1px solid var(--neutral-border);
+      padding: 4.5rem 0;
+    }
+
+    .contact-architectural-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      width: 100%;
+      max-width: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid rgba(77, 124, 254, 0.25);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55);
+      background: var(--delgado-navy-card);
+    }
+
+    @media (min-width: 992px) {
+      .contact-architectural-grid {
+        grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+      }
+    }
+
+    .contact-text-column {
+      min-width: 0;
+      width: 100%;
+      max-width: 100%;
+      padding: 2.25rem;
+      background: var(--delgado-navy-card);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .contact-cards-subgrid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.85rem;
+      width: 100%;
+    }
+
+    @media (min-width: 540px) {
+      .contact-cards-subgrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .contact-hours-column {
+      min-width: 0;
+      width: 100%;
+      max-width: 100%;
+      padding: 2.25rem;
+      background: #040711;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.5rem;
+      border-top: 1px solid rgba(77, 124, 254, 0.18);
+    }
+
+    @media (min-width: 992px) {
+      .contact-hours-column {
+        border-top: none;
+        border-left: 1px solid rgba(77, 124, 254, 0.18);
+      }
+    }
+
+    .schedule-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .schedule-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      gap: 12px;
+    }
+
+    .schedule-day {
+      font-size: 0.92rem;
+      font-weight: 800;
+      color: #FFFFFF;
+    }
+
+    .schedule-time {
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--delgado-sky-glow);
+      text-align: right;
+    }
+
+    @media (max-width: 640px) {
+      .contact-text-column,
+      .contact-hours-column {
+        padding: 1.5rem 1.25rem;
+      }
+      .contact-text-column .btn-editorial {
+        white-space: normal;
+        text-align: center;
+        padding: 12px 16px;
+        width: 100%;
+        max-width: 100%;
+      }
+      .schedule-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+      }
+      .schedule-time {
+        text-align: left;
+      }
+    }
+
+    .map-embed-wrap {
+      margin-top: 1.75rem;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid rgba(77, 124, 254, 0.25);
+      height: 320px;
+      background: #040711;
+    }
+
+    .map-embed-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    /* ==========================================================================
+       11. FOOTER SOBRIO + BOTÓN FLOTANTE DE WHATSAPP
+       ========================================================================== */
+    .site-editorial-footer {
+      background: #02040A;
+      color: #FFFFFF;
+      padding: 5rem 0 3rem;
+      border-top: 3px solid var(--easy-blue);
+    }
+
+    .footer-columns-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.75rem;
+      padding-bottom: 3.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    @media (min-width: 768px) {
+      .footer-columns-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .footer-columns-grid {
+        grid-template-columns: 1.4fr 0.95fr 0.9fr 1fr;
+      }
+    }
+
+    .footer-col-title {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--delgado-sky-glow);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+
+    .footer-links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+
+    .footer-links-list a {
+      font-size: 0.92rem;
+      color: #94A3B8;
+    }
+
+    .footer-links-list a:hover {
+      color: #FFFFFF;
+      padding-left: 4px;
+    }
+
+    .footer-bottom-row {
+      padding-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+      font-size: 0.85rem;
+      color: #64748B;
+    }
+
+    .footer-legal-links {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-legal-links a:hover {
+      color: #FFFFFF;
+    }
+
+    /* Botón Flotante WhatsApp — Aparece tras terminar el video intro */
+    .floating-brand-wa {
+      position: fixed;
+      bottom: 26px;
+      right: 26px;
+      z-index: 998;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--delgado-wa);
+      color: #03150B !important;
+      padding: 12px 22px;
+      border-radius: 9999px;
+      font-weight: 800;
+      font-size: 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55), 0 0 22px rgba(37, 211, 102, 0.35);
+      text-decoration: none;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(20px);
+      transition: opacity 0.85s var(--ease-editorial), transform 0.85s var(--ease-editorial), visibility 0.85s ease, background 0.25s ease;
+    }
+
+    body.video-intro-done .floating-brand-wa {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .floating-brand-wa:hover {
+      background: #34E376;
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 16px 38px rgba(0, 0, 0, 0.7), 0 0 28px rgba(37, 211, 102, 0.48);
+    }
+
+    .wa-icon-svg {
+      width: 22px;
+      height: 22px;
+      fill: #03150B;
+      flex-shrink: 0;
+      display: block;
+    }
+
+    .wa-label-box {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .wa-label-title {
+      font-size: 0.84rem;
+      font-weight: 900;
+      color: #03150B;
+      line-height: 1.15;
+    }
+
+    .wa-label-sub {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #064E3B;
+      line-height: 1.15;
+    }
+
+    @media (max-width: 768px) {
+      .floating-brand-wa {
+        bottom: 18px;
+        right: 16px;
+        width: 54px;
+        height: 54px;
+        padding: 0;
+        border-radius: 50%;
+        justify-content: center;
+      }
+      .floating-brand-wa .wa-label-box {
+        display: none;
+      }
+      .wa-icon-svg {
+        width: 26px;
+        height: 26px;
+      }
+    }
+
+    /* ==========================================================================
+       12. ANIMACIONES ESCALONADAS POR SCROLL
+       ========================================================================== */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.8s var(--ease-editorial), transform 0.8s var(--ease-editorial);
+    }
+
+    .reveal-on-scroll.is-revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .delay-1 { transition-delay: 0.08s; }
+    .delay-2 { transition-delay: 0.16s; }
+    .delay-3 { transition-delay: 0.24s; }
+    .delay-4 { transition-delay: 0.32s; }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP NAV MINIMALISTA (OCULTO DURANTE EL VIDEO INTRO -> APARECE AL FINALIZAR)
+       ======================================================================== -->
+  <nav class="editorial-nav" aria-label="Navegación principal">
+    <div class="editorial-nav-inner">
+      <a href="#inicio" class="editorial-brand-link" aria-label="Autoescuela EASY - Inicio">
+        <img src="assets/logo.png" alt="Autoescuela EASY Centro de Formación - Jerez de la Frontera" class="editorial-brand-logo" />
+      </a>
+
+      <div class="nav-actions-group">
+        <button class="editorial-menu-btn" id="openMenuBtn" aria-label="Abrir menú de navegación">
+          <span>Menú</span>
+          <div class="editorial-burger-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fullscreen Minimalist Overlay Menu -->
+  <div class="editorial-overlay-menu" id="overlayMenu" aria-hidden="true">
+    <div class="overlay-top-row">
+      <a href="#inicio" class="editorial-brand-link overlay-nav-link" aria-label="Autoescuela EASY - Inicio">
+        <img src="assets/logo.png" alt="Autoescuela EASY Centro de Formación" class="editorial-brand-logo" />
+      </a>
+      <button class="overlay-close-btn" id="closeMenuBtn" aria-label="Cerrar menú">
+        <span>Cerrar ✕</span>
+      </button>
+    </div>
+
+    <div class="overlay-nav-list">
+      <a href="#inicio" class="overlay-nav-link"><span class="nav-index">01</span><span>Inicio</span></a>
+      <a href="#metodo" class="overlay-nav-link"><span class="nav-index">02</span><span>El Método EASY (#hazlofácil)</span></a>
+      <a href="#permisos" class="overlay-nav-link"><span class="nav-index">03</span><span>Permisos de Conducir (B, Motos, C, D)</span></a>
+      <a href="#profesional" class="overlay-nav-link"><span class="nav-index">04</span><span>CAP, FUNDAE y Nuestro Equipo</span></a>
+      <a href="#opiniones" class="overlay-nav-link"><span class="nav-index">05</span><span>Opiniones Verificadas (4.9 ★)</span></a>
+      <a href="#faq" class="overlay-nav-link"><span class="nav-index">06</span><span>Preguntas Frecuentes y Notas DGT</span></a>
+      <a href="#contacto" class="overlay-nav-link"><span class="nav-index">07</span><span>Av. de Nazaret, 48 (Jerez) y Horarios</span></a>
+    </div>
+
+    <div class="overlay-bottom-bar">
+      <div>
+        Avenida de Nazaret, 48 · Barrio de Los Albarizones · 11406 Jerez de la Frontera (Cádiz)
+      </div>
+      <div style="display:flex; gap:1.5rem; flex-wrap:wrap;">
+        <a href="tel:+34601369238" style="color:#FFFFFF; font-weight:700;">Tel: 601 36 92 38</a>
+        <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%97%20Quiero%20informaci%C3%B3n%20sobre%20precios%2C%20horarios%20y%20matr%C3%ADcula%20en%20Jerez." target="_blank" rel="noopener noreferrer" style="color:var(--delgado-wa); font-weight:800;">WhatsApp: +34 601 36 92 38</a>
+        <a href="https://www.instagram.com/autoescuelaeasy/" target="_blank" rel="noopener noreferrer" style="color:var(--delgado-sky-glow); font-weight:700;">@autoescuelaeasy</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ======================================================================
+         HERO CINEMATOGRÁFICO CON INTRO EN VIDEO (DESKTOP Y MOBILE)
+         Al cargar la página se reproduce únicamente el video en alta calidad;
+         al finalizar el video aparecen todos los elementos de la home.
+         ====================================================================== -->
+    <section class="hero-editorial" id="inicio">
+      <div class="hero-bg-stage" aria-hidden="true">
+        <video
+          id="heroVideoDesktop"
+          class="hero-video-el hero-video-desktop"
+          src="assets/videohomedesktop.mp4"
+          muted
+          playsinline
+          preload="auto"
+        ></video>
+        <video
+          id="heroVideoMobile"
+          class="hero-video-el hero-video-mobile"
+          src="assets/videohomemobile.mp4"
+          muted
+          playsinline
+          preload="auto"
+        ></video>
+      </div>
+
+      <div class="hero-vignette" aria-hidden="true"></div>
+
+      <div class="hero-editorial-inner">
+        <div class="hero-lead-editorial">
+          <h1 class="hero-editorial-title">
+            Tu carnet a la primera en Jerez: <em>#hazlofácil con EASY.</em>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECCIÓN DE MÉTRICAS EDITORIALES (DATOS OFICIALES DGT Y GOOGLE)
+         ====================================================================== -->
+    <section class="metrics-section">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-item reveal-on-scroll delay-1">
+            <div class="metric-number is-gold">82% Aptos</div>
+            <div>
+              <div class="metric-label">Líderes en Examen Práctico B (DGT)</div>
+              <div class="metric-sub">41 aptos de 50 exámenes en Jerez (Abr–Sep 2026), 23 puntos por encima de la media del centro de examen.</div>
+            </div>
+          </div>
+
+          <div class="metric-item reveal-on-scroll delay-2">
+            <div class="metric-number">4.9 ★</div>
+            <div>
+              <div class="metric-label">+198 Opiniones en Google</div>
+              <div class="metric-sub">Alumnos de Jerez y toda la provincia destacan la paciencia de nuestros profesores y la rapidez de gestión.</div>
+            </div>
+          </div>
+
+          <div class="metric-item reveal-on-scroll delay-3">
+            <div class="metric-number is-accent">AM a D + CAP</div>
+            <div>
+              <div class="metric-label">Todos los Permisos en un Centro</div>
+              <div class="metric-sub">Coche B y B+E, Motos AM/A1/A2/A (Kawasaki Z), Camión C, Tráiler C+E, Autobús D, CAP y Tacógrafo.</div>
+            </div>
+          </div>
+
+          <div class="metric-item reveal-on-scroll delay-4">
+            <div class="metric-number">Desde 2015</div>
+            <div>
+              <div class="metric-label">Av. de Nazaret, 48 · Jerez</div>
+              <div class="metric-sub">Centro homologado DGT (CA0508-01) y entidad registrada en FUNDAE para formación bonificada.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         LOS 3 PILARES (MÉTODO EASY: RESULTADOS DGT, FLOTA Y TRATO HUMANO)
+         ====================================================================== -->
+    <section class="section-editorial-padding pillars-section" id="metodo">
+      <div class="pillars-animated-bg" aria-hidden="true">
+        <div class="pillars-glow-orb orb-1"></div>
+        <div class="pillars-glow-orb orb-2"></div>
+        <div class="pillars-glow-orb orb-3"></div>
+        <div class="pillars-grid-mesh"></div>
+        <div class="pillars-light-streak streak-1"></div>
+        <div class="pillars-light-streak streak-2"></div>
+      </div>
+
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="section-editorial-header reveal-on-scroll">
+          <span class="section-editorial-index">EL MÉTODO EASY · #HAZLOFÁCIL</span>
+          <h2 class="section-editorial-title">
+            Por qué aprobamos a la primera con <em>confianza y cero nervios</em>
+          </h2>
+          <p class="section-editorial-desc">
+            Desde 2015 transformamos aprender a conducir en una experiencia amena, directa y honesta en el barrio de Los Albarizones, Jerez de la Frontera.
+          </p>
+        </div>
+
+        <div class="pillars-editorial-grid">
+          <!-- Pilar 1 -->
+          <div class="pillar-editorial-card reveal-on-scroll delay-1">
+            <div>
+              <div class="pillar-card-top">
+                <div class="pillar-icon-wrap" aria-hidden="true">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <span class="pillar-badge-pill">PILAR 01</span>
+              </div>
+              <h3>82% de Aprobados y Honestidad Real</h3>
+              <p>
+                No alargamos tus clases innecesariamente. Te preparamos con test DGT actualizados y te presentamos cuando estás listo, alcanzando un <strong>82% de aprobados en Jerez</strong>.
+              </p>
+            </div>
+            <ul class="pillar-checklist">
+              <li><span class="pillar-check-icon">✓</span> 82% de aptos en práctico B (datos DGT)</li>
+              <li><span class="pillar-check-icon">✓</span> Test oficiales DGT y clases teóricas amenas</li>
+              <li><span class="pillar-check-icon">✓</span> Presupuesto gratuito y transparente</li>
+            </ul>
+          </div>
+
+          <!-- Pilar 2 -->
+          <div class="pillar-editorial-card reveal-on-scroll delay-2">
+            <div>
+              <div class="pillar-card-top">
+                <div class="pillar-icon-wrap" aria-hidden="true">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <line x1="12" y1="2" x2="12" y2="9"></line>
+                    <line x1="4.93" y1="19.07" x2="9.88" y2="14.12"></line>
+                    <line x1="19.07" y1="19.07" x2="14.12" y2="14.12"></line>
+                  </svg>
+                </div>
+                <span class="pillar-badge-pill">PILAR 02</span>
+              </div>
+              <h3>Flota Moderna: Renault Mégane y Kawasaki Z</h3>
+              <p>
+                Aprende con vehículos ágiles y cómodos de conducir: turismos <strong>Renault Mégane</strong> para coche B, motos <strong>Kawasaki Z</strong> para A2 y flota para <strong>Camión C y Tráiler C+E</strong>.
+              </p>
+            </div>
+            <ul class="pillar-checklist">
+              <li><span class="pillar-check-icon">✓</span> Coches Renault Mégane modernos y seguros</li>
+              <li><span class="pillar-check-icon">✓</span> Prácticas en pista y circulación de examen</li>
+              <li><span class="pillar-check-icon">✓</span> Motos ágiles y vehículos industriales</li>
+            </ul>
+          </div>
+
+          <!-- Pilar 3 -->
+          <div class="pillar-editorial-card reveal-on-scroll delay-3">
+            <div>
+              <div class="pillar-card-top">
+                <div class="pillar-icon-wrap" aria-hidden="true">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <span class="pillar-badge-pill">PILAR 03</span>
+              </div>
+              <h3>Trato Humano y Gestión Ágil</h3>
+              <p>
+                Con <strong>Laura</strong> en secretaría y profesores como <strong>Raúl, Samuel y José Antonio</strong>, resolvemos tus dudas al instante y agilizamos exámenes para que apruebes sin esperas.
+              </p>
+            </div>
+            <ul class="pillar-checklist">
+              <li><span class="pillar-check-icon">✓</span> Atención directa por WhatsApp y presencial</li>
+              <li><span class="pillar-check-icon">✓</span> Alumnos de toda la provincia de Cádiz</li>
+              <li><span class="pillar-check-icon">✓</span> Traslado rápido de expediente sin esperas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CATÁLOGO EXAUSTIVO DE PERMISOS DGT (MARQUEE DOBLE INFINITO)
+         ====================================================================== -->
+    <section class="section-editorial-padding permisos-section" id="permisos">
+      <div class="container">
+        <div class="section-editorial-header reveal-on-scroll">
+          <span class="section-editorial-index">CATÁLOGO OFICIAL DGT</span>
+          <h2 class="section-editorial-title">
+            Todos los Permisos de Conducir en <em>Jerez</em>
+          </h2>
+          <p class="section-editorial-desc">
+            Desde el Permiso B de coche y motos AM, A1, A2 y A hasta remolque B+E, Camión C, Tráiler C+E, Autobús D y cursos CAP. Pulsa cualquier especialidad para pedir precio por WhatsApp.
+          </p>
+        </div>
+      </div>
+
+      <!-- Escenario Marquee Infinito -->
+      <div class="permisos-marquee-stage reveal-on-scroll delay-1" aria-label="Permisos de conducir y especialidades">
+        <!-- Fila 1 -->
+        <div class="permisos-marquee-row">
+          <div class="permisos-marquee-track marquee-track-left">
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%97%20Quiero%20informaci%C3%B3n%20sobre%20precios%2C%20horarios%20y%20matr%C3%ADcula%20para%20sacarme%20el%20Permiso%20B%20de%20coche%20en%20Jerez." target="_blank" rel="noopener noreferrer" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Permiso B · 82% Aprobados</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%8F%8D%EF%B8%8F%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20y%20tarifas%20para%20sacarme%20el%20carnet%20de%20moto%20(AM%20%2F%20A1%20%2F%20A2%20%2F%20A)%20con%20vosotros." target="_blank" rel="noopener noreferrer" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Motos AM · A1 · A2 · A</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%9B%20Estoy%20interesado%20en%20los%20permisos%20profesionales%20(Cami%C3%B3n%20C%20%2F%20C%2BE%20%2F%20Autob%C3%BAs%20D%20%2F%20CAP).%20%C2%BFMe%20pod%C3%A9is%20informar%20sobre%20convocatorias%20y%20precios%3F" target="_blank" rel="noopener noreferrer" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Camión C · Tráiler C+E</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%9B%20Estoy%20interesado%20en%20los%20permisos%20profesionales%20(Cami%C3%B3n%20C%20%2F%20C%2BE%20%2F%20Autob%C3%BAs%20D%20%2F%20CAP).%20%C2%BFMe%20pod%C3%A9is%20informar%20sobre%20convocatorias%20y%20precios%3F" target="_blank" rel="noopener noreferrer" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Autobús D · CAP Inicial y Continuo</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#profesional" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Formación Bonificada FUNDAE</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+
+            <!-- Duplicado continuo -->
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%97%20Quiero%20informaci%C3%B3n%20sobre%20precios%2C%20horarios%20y%20matr%C3%ADcula%20para%20sacarme%20el%20Permiso%20B%20de%20coche%20en%20Jerez." target="_blank" rel="noopener noreferrer" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Permiso B · 82% Aprobados</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%8F%8D%EF%B8%8F%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20y%20tarifas%20para%20sacarme%20el%20carnet%20de%20moto%20(AM%20%2F%20A1%20%2F%20A2%20%2F%20A)%20con%20vosotros." target="_blank" rel="noopener noreferrer" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Motos AM · A1 · A2 · A</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%9B%20Estoy%20interesado%20en%20los%20permisos%20profesionales%20(Cami%C3%B3n%20C%20%2F%20C%2BE%20%2F%20Autob%C3%BAs%20D%20%2F%20CAP).%20%C2%BFMe%20pod%C3%A9is%20informar%20sobre%20convocatorias%20y%20precios%3F" target="_blank" rel="noopener noreferrer" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Camión C · Tráiler C+E</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%9B%20Estoy%20interesado%20en%20los%20permisos%20profesionales%20(Cami%C3%B3n%20C%20%2F%20C%2BE%20%2F%20Autob%C3%BAs%20D%20%2F%20CAP).%20%C2%BFMe%20pod%C3%A9is%20informar%20sobre%20convocatorias%20y%20precios%3F" target="_blank" rel="noopener noreferrer" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Autobús D · CAP Inicial y Continuo</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#profesional" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Formación Bonificada FUNDAE</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="permisos-marquee-row">
+          <div class="permisos-marquee-track marquee-track-right">
+            <a href="#metodo" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Flota Renault Mégane &amp; Kawasaki Z</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%94%91%20Quiero%20consultar%20disponibilidad%20y%20precios%20para%20clases%20pr%C3%A1cticas%20sueltas%20%2F%20reciclaje%20o%20traslado%20de%20expediente." target="_blank" rel="noopener noreferrer" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Traslado de Expediente y Reciclaje</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#profesional" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Tarjeta Tacógrafo Digital y ADR</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#opiniones" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">4.9 ★ en Google (198+ Reseñas)</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#contacto" class="permiso-marquee-link">
+              <span class="permiso-marquee-name">Av. de Nazaret, 48 · Jerez</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+
+            <!-- Duplicado continuo -->
+            <a href="#metodo" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Flota Renault Mégane &amp; Kawasaki Z</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%94%91%20Quiero%20consultar%20disponibilidad%20y%20precios%20para%20clases%20pr%C3%A1cticas%20sueltas%20%2F%20reciclaje%20o%20traslado%20de%20expediente." target="_blank" rel="noopener noreferrer" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Traslado de Expediente y Reciclaje</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#profesional" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Tarjeta Tacógrafo Digital y ADR</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#opiniones" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">4.9 ★ en Google (198+ Reseñas)</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+            <a href="#contacto" class="permiso-marquee-link" aria-hidden="true" tabindex="-1">
+              <span class="permiso-marquee-name">Av. de Nazaret, 48 · Jerez</span>
+              <span class="permiso-marquee-sep" aria-hidden="true">•</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         DIVISIÓN PROFESIONAL (CAP / TACÓGRAFO / FUNDAE / EXPEDIENTES) Y EQUIPO
+         ====================================================================== -->
+    <section class="section-editorial-padding prof-editorial-section" id="profesional">
+      <div class="pillars-animated-bg" aria-hidden="true">
+        <div class="pillars-glow-orb orb-1"></div>
+        <div class="pillars-glow-orb orb-2"></div>
+        <div class="pillars-grid-mesh"></div>
+      </div>
+
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="section-editorial-header reveal-on-scroll">
+          <span class="section-editorial-index">FORMACIÓN PROFESIONAL &amp; TRANSPORTE</span>
+          <h2 class="section-editorial-title">
+            CAP, Empresas FUNDAE y <em>Nuestro Equipo en Jerez</em>
+          </h2>
+          <p class="section-editorial-desc">
+            Impulsamos tu carrera en el transporte profesional con gestión integral de tarjetas, formación bonificada y el equipo docente mejor valorado de Jerez.
+          </p>
+        </div>
+
+        <div class="prof-editorial-grid">
+          <!-- 1. CAP Inicial y Continuo -->
+          <div class="prof-editorial-card reveal-on-scroll delay-1">
+            <div>
+              <div class="prof-card-top">
+                <div class="prof-card-title-group">
+                  <div class="prof-icon-wrap" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="1" y="3" width="15" height="13"></rect>
+                      <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                      <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                      <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                    </svg>
+                  </div>
+                  <h3>CAP Inicial y CAP Continuo</h3>
+                </div>
+                <span class="prof-duration-pill">140H / 35H · TRANSPORTE</span>
+              </div>
+              <p>
+                Obtén tu <strong>CAP Inicial (140h / 280h)</strong> para mercancías y viajeros o renueva tu <strong>CAP Continuo de 35 horas</strong> sin examen con convocatorias frecuentes en Jerez.
+              </p>
+              <div class="prof-tags-grid">
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> CAP Inicial Mercancías y Viajeros</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> CAP Continuo 35h sin examen</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Tramitación de Tarjeta CAP</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Convocatorias frecuentes en Jerez</div>
+              </div>
+            </div>
+            <div class="prof-card-footer">
+              <span class="prof-meta-note">Plazas y fechas próximas</span>
+              <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%9B%20Estoy%20interesado%20en%20los%20permisos%20profesionales%20(Cami%C3%B3n%20C%20%2F%20C%2BE%20%2F%20Autob%C3%BAs%20D%20%2F%20CAP).%20%C2%BFMe%20pod%C3%A9is%20informar%20sobre%20convocatorias%20y%20precios%3F" target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue">
+                Consultar Convocatorias
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. Tacógrafo Digital y ADR -->
+          <div class="prof-editorial-card reveal-on-scroll delay-2">
+            <div>
+              <div class="prof-card-top">
+                <div class="prof-card-title-group">
+                  <div class="prof-icon-wrap" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                      <line x1="7" y1="15" x2="17" y2="15"></line>
+                      <line x1="7" y1="9" x2="11" y2="9"></line>
+                    </svg>
+                  </div>
+                  <h3>Tacógrafo Digital y ADR</h3>
+                </div>
+                <span class="prof-duration-pill">GESTIÓN Y ESPECIALIZACIÓN</span>
+              </div>
+              <p>
+                Gestionamos tu tarjeta de <strong>tacógrafo digital y tarjeta CAP</strong> ante la Administración, además de asesorarte en la obtención del carnet de Mercancías Peligrosas (<strong>ADR</strong>).
+              </p>
+              <div class="prof-tags-grid">
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Tarjeta de Tacógrafo Digital</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Renovación y expedición</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Mercancías Peligrosas ADR</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Asesoramiento al chófer</div>
+              </div>
+            </div>
+            <div class="prof-card-footer">
+              <span class="prof-meta-note">Tramitación ágil en oficina</span>
+              <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%9B%20Quisiera%20informaci%C3%B3n%20sobre%20tramitaci%C3%B3n%20de%20tarjeta%20de%20tac%C3%B3grafo%20digital%2C%20CAP%20o%20ADR." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue">
+                Consultar por WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. Formación Bonificada FUNDAE -->
+          <div class="prof-editorial-card reveal-on-scroll delay-3">
+            <div>
+              <div class="prof-card-top">
+                <div class="prof-card-title-group">
+                  <div class="prof-icon-wrap" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                      <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                  </div>
+                  <h3>Formación Bonificada FUNDAE</h3>
+                </div>
+                <span class="prof-duration-pill">ENTIDAD REGISTRADA FUNDAE</span>
+              </div>
+              <p>
+                <strong>RALOB EASY FORMACION S.L. (CIF B06914808)</strong> es entidad acreditada en FUNDAE. Gestionamos formación bonificada y microcréditos para empresas y conductores profesionales.
+              </p>
+              <div class="prof-tags-grid">
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Bonificación vía créditos FUNDAE</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Formación para flotas y empresas</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Convocatorias de microcréditos</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Código oficial CA0508 Cádiz</div>
+              </div>
+            </div>
+            <div class="prof-card-footer">
+              <span class="prof-meta-note">Para empresas y profesionales</span>
+              <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20Quisiera%20informaci%C3%B3n%20sobre%20formaci%C3%B3n%20bonificada%20FUNDAE%20para%20conductores%20o%20empresas." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue">
+                Consultar Créditos FUNDAE
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. Traslado de Expediente y Recuperación de Puntos -->
+          <div class="prof-editorial-card reveal-on-scroll delay-4">
+            <div>
+              <div class="prof-card-top">
+                <div class="prof-card-title-group">
+                  <div class="prof-icon-wrap" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="23 4 23 10 17 10"></polyline>
+                      <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                    </svg>
+                  </div>
+                  <h3>Traslado de Expediente y Puntos DGT</h3>
+                </div>
+                <span class="prof-duration-pill">CAMBIO SIN ESPERAS</span>
+              </div>
+              <p>
+                ¿Vienes de otra autoescuela con esperas interminables? Trasladamos tu expediente a EASY para que examines rápido y te asesoramos en <strong>Recuperación de Puntos DGT</strong>.
+              </p>
+              <div class="prof-tags-grid">
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Traslado ágil desde otro centro</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Clases sueltas y reciclaje</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Información cursos DGT 12h/24h</div>
+                <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Atención inmediata con Laura</div>
+              </div>
+            </div>
+            <div class="prof-card-footer">
+              <span class="prof-meta-note">Recupera tu ritmo y confianza</span>
+              <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%E2%9A%A0%EF%B8%8F%20Necesito%20informaci%C3%B3n%20sobre%20traslado%20de%20expediente%20o%20cursos%20de%20Recuperaci%C3%B3n%20de%20Puntos%20de%20la%20DGT." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue">
+                Consultar Mi Caso
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nuestro Equipo Real Nominalmente Elogiado en Google Reviews -->
+        <div class="team-family-grid reveal-on-scroll delay-2">
+          <div class="team-member-card">
+            <span class="team-member-role">Secretaría &amp; Administración</span>
+            <h4 class="team-member-name">Laura</h4>
+            <p class="team-member-bio">
+              Elogiada por su simpatía y eficacia para tramitar expedientes, agilizar fechas de examen ante la DGT y resolver tus dudas en oficina.
+            </p>
+          </div>
+          <div class="team-member-card">
+            <span class="team-member-role">Profesor · Camión C, Moto A2 y B</span>
+            <h4 class="team-member-name">Raúl</h4>
+            <p class="team-member-bio">
+              Referente en prácticas de Camión C y Moto A2 en pista y circulación. Destacado por su paciencia, sabiduría y resultados rápidos.
+            </p>
+          </div>
+          <div class="team-member-card">
+            <span class="team-member-role">Profesor · Coche B y Moto/AM</span>
+            <h4 class="team-member-name">Samuel</h4>
+            <p class="team-member-bio">
+              Reconocido por su paciencia infinita y trato amable, ayudando a alumnos principiantes a aprobar el teórico y el práctico a la primera.
+            </p>
+          </div>
+          <div class="team-member-card">
+            <span class="team-member-role">Profesor · Coche B y Moto A2</span>
+            <h4 class="team-member-name">José Antonio (Pepe)</h4>
+            <p class="team-member-bio">
+              Transmite seguridad y tranquilidad desde la primera clase práctica, logrando que vayas a gusto al volante y apruebes sin nervios.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         OPINIONES VERIFICADAS EN GOOGLE REVIEWS (4 TESTIMONIOS BALANCEADOS)
+         ====================================================================== -->
+    <section class="reviews-editorial-section" id="opiniones">
+      <div class="reviews-bg-stage" aria-hidden="true">
+        <video src="assets/videohomedesktop.mp4" muted loop autoplay playsinline preload="metadata" style="width:100%; height:100%; object-fit:cover; object-position:center center; filter:brightness(0.35) contrast(1.08);"></video>
+      </div>
+      <div class="reviews-vignette" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="reviews-content-wrap">
+          <div class="section-editorial-header reveal-on-scroll">
+            <span class="section-editorial-index">4.9 ★ EN GOOGLE · +198 RESEÑAS REALES</span>
+            <h2 class="section-editorial-title">
+              Lo que opinan nuestros <em>alumnos aprobados</em>
+            </h2>
+          </div>
+
+          <div class="testimonial-carousel-stage" id="testimonialStage">
+            <!-- 1. Paola Michan Medinas -->
+            <div class="testimonial-slide is-active" data-index="0">
+              <div class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-stars-badge">
+                    <span class="stars">★★★★★</span>
+                    <span class="score">5.0</span>
+                    <span class="platform">Google Reviews · Permiso C (Camión)</span>
+                  </div>
+                  <svg class="testimonial-quote-svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  </svg>
+                </div>
+                <p class="testimonial-quote-text">
+                  “Soy de Algeciras y en 3 meses ya tengo mi <strong>permiso C</strong>... Quiero agradecer a <strong>Raúl</strong> su paciencia y sabiduría, porque en muy pocas clases prácticas he obtenido el permiso. ¡Gracias a todos!”
+                </p>
+                <div class="testimonial-author-row">
+                  <div class="testimonial-avatar" aria-hidden="true">PM</div>
+                  <div>
+                    <div class="testimonial-author-name">
+                      Paola Michan Medinas
+                      <span class="testimonial-verified-pill">✓ Alumna Verificada</span>
+                    </div>
+                    <div class="testimonial-author-meta">Permiso C · Algeciras / Jerez de la Frontera</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. José Antonio Gómez Cabral -->
+            <div class="testimonial-slide" data-index="1">
+              <div class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-stars-badge">
+                    <span class="stars">★★★★★</span>
+                    <span class="score">5.0</span>
+                    <span class="platform">Google Reviews · Permiso C (Camión)</span>
+                  </div>
+                  <svg class="testimonial-quote-svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  </svg>
+                </div>
+                <p class="testimonial-quote-text">
+                  “Me saqué recientemente el <strong>permiso C</strong> con ellos tras pasar por otra autoescuela y tener malas experiencias; aquí fue todo lo contrario. <strong>Raúl es un fenómeno</strong>, el mejor profesor que he tenido.”
+                </p>
+                <div class="testimonial-author-row">
+                  <div class="testimonial-avatar" aria-hidden="true">JG</div>
+                  <div>
+                    <div class="testimonial-author-name">
+                      José Antonio Gómez Cabral
+                      <span class="testimonial-verified-pill">✓ Alumno Verificado</span>
+                    </div>
+                    <div class="testimonial-author-meta">Permiso C · Autoescuela EASY Jerez</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Álvaro Ortega -->
+            <div class="testimonial-slide" data-index="2">
+              <div class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-stars-badge">
+                    <span class="stars">★★★★★</span>
+                    <span class="score">5.0</span>
+                    <span class="platform">Google Reviews · Permiso C (Camión)</span>
+                  </div>
+                  <svg class="testimonial-quote-svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  </svg>
+                </div>
+                <p class="testimonial-quote-text">
+                  “He realizado mis prácticas del carnet <strong>C</strong>. Con <strong>Raúl</strong> en pista y circulación y <strong>Laura</strong> en administración ha ido todo genial. Súper amables y cercanos, te ayudan en todo. 10/10.”
+                </p>
+                <div class="testimonial-author-row">
+                  <div class="testimonial-avatar" aria-hidden="true">AO</div>
+                  <div>
+                    <div class="testimonial-author-name">
+                      Álvaro Ortega
+                      <span class="testimonial-verified-pill">✓ Alumno Verificado</span>
+                    </div>
+                    <div class="testimonial-author-meta">Permiso C · Pista y Circulación</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Laura Rodríguez -->
+            <div class="testimonial-slide" data-index="3">
+              <div class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-stars-badge">
+                    <span class="stars">★★★★★</span>
+                    <span class="score">5.0</span>
+                    <span class="platform">Google Reviews · Permiso B (Coche)</span>
+                  </div>
+                  <svg class="testimonial-quote-svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  </svg>
+                </div>
+                <p class="testimonial-quote-text">
+                  “Aprobé hace un mes, <strong>autoescuela de 10 y el apto a la primera</strong>. <strong>Laura</strong> súper simpática siempre, y <strong>José Antonio</strong> un profesor estupendo que me dio mucha confianza y seguridad al volante.”
+                </p>
+                <div class="testimonial-author-row">
+                  <div class="testimonial-avatar" aria-hidden="true">LR</div>
+                  <div>
+                    <div class="testimonial-author-name">
+                      Laura Rodríguez
+                      <span class="testimonial-verified-pill">✓ Alumna Verificada</span>
+                    </div>
+                    <div class="testimonial-author-meta">Permiso B · Apto a la Primera</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-nav-row reveal-on-scroll delay-1">
+            <div class="testimonial-dots" id="testimonialDots">
+              <button class="testimonial-dot is-active" data-slide="0" aria-label="Ver opinión de Paola Michan Medinas"></button>
+              <button class="testimonial-dot" data-slide="1" aria-label="Ver opinión de José Antonio Gómez Cabral"></button>
+              <button class="testimonial-dot" data-slide="2" aria-label="Ver opinión de Álvaro Ortega"></button>
+              <button class="testimonial-dot" data-slide="3" aria-label="Ver opinión de Laura Rodríguez"></button>
+            </div>
+            <div class="testimonial-arrows">
+              <button class="testimonial-arrow-btn" id="prevTestimonialBtn" aria-label="Opinión anterior">←</button>
+              <button class="testimonial-arrow-btn" id="nextTestimonialBtn" aria-label="Siguiente opinión">→</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PREGUNTAS FRECUENTES (FAQ) + BANNER CONSULTA DE NOTAS DGT
+         ====================================================================== -->
+    <section class="section-editorial-padding faq-editorial-section" id="faq">
+      <div class="container">
+        <div class="faq-editorial-container">
+          <div class="section-editorial-header reveal-on-scroll" style="margin-bottom: 2.5rem; text-align: center;">
+            <span class="section-editorial-index">PREGUNTAS FRECUENTES</span>
+            <h2 class="section-editorial-title">
+              Resolvemos tus dudas antes de <em>matricularte</em>
+            </h2>
+          </div>
+
+          <div class="faq-editorial-item reveal-on-scroll delay-1">
+            <div class="faq-editorial-question">
+              <span>¿Dónde está ubicada Autoescuela EASY en Jerez de la Frontera?</span>
+              <span class="faq-editorial-indicator">+</span>
+            </div>
+            <div class="faq-editorial-answer">
+              <p>
+                Nos encontramos en <strong>Avenida de Nazaret, 48, 11406 Jerez de la Frontera (Cádiz)</strong>, en la zona del Barrio de Los Albarizones. Atendemos en secretaría de lunes a viernes de 10:00 a 13:00 h y de 17:00 a 20:00 h.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-editorial-item reveal-on-scroll delay-2">
+            <div class="faq-editorial-question">
+              <span>¿Qué porcentaje de aprobados tenéis y con qué vehículos se hacen las prácticas?</span>
+              <span class="faq-editorial-indicator">+</span>
+            </div>
+            <div class="faq-editorial-answer">
+              <p>
+                Según los datos oficiales de la DGT (Abr–Sep 2026), registramos un <strong>82% de aprobados en el examen práctico del Permiso B</strong> (23 puntos por encima de la media de Jerez). Las prácticas de coche se realizan con nuestra flota moderna <strong>Renault Mégane</strong> y en moto disponemos de modelos ágiles como la <strong>Kawasaki Z</strong> para el A2.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-editorial-item reveal-on-scroll delay-3">
+            <div class="faq-editorial-question">
+              <span>¿Cuánto se tarda en sacar el Permiso C o los cursos profesionales CAP?</span>
+              <span class="faq-editorial-indicator">+</span>
+            </div>
+            <div class="faq-editorial-answer">
+              <p>
+                Agilizamos al máximo las convocatorias y prácticas en pista y circulación. Como cuentan alumnos llegados incluso desde Algeciras u otras localidades de Cádiz, con compromiso y el acompañamiento de Raúl y Laura es posible obtener el Permiso C en plazos muy reducidos (en torno a 3 meses según fechas DGT). Consúltanos la próxima convocatoria CAP o FUNDAE por WhatsApp.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-editorial-item reveal-on-scroll delay-4">
+            <div class="faq-editorial-question">
+              <span>¿Puedo trasladar mi expediente desde otra autoescuela o dar clases sueltas?</span>
+              <span class="faq-editorial-indicator">+</span>
+            </div>
+            <div class="faq-editorial-answer">
+              <p>
+                Sí. Si vienes de otra autoescuela con demoras o malas experiencias, o si ya tienes el carnet y necesitas clases prácticas de reciclaje, te ayudamos a tramitar el traslado de expediente y empezar tus prácticas cuanto antes escribiéndonos al <strong>+34 601 36 92 38</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-editorial-item reveal-on-scroll delay-4">
+            <div class="faq-editorial-question">
+              <span>¿Cómo puedo pedir presupuesto gratuito y consultar precios?</span>
+              <span class="faq-editorial-indicator">+</span>
+            </div>
+            <div class="faq-editorial-answer">
+              <p>
+                Ofrecemos presupuesto personalizado, transparente y sin compromiso según el permiso que necesites (B, moto AM/A1/A2/A, remolque B+E, camión C/C+E, autobús D o CAP). Escríbenos directamente por WhatsApp al <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20Quisiera%20pedir%20presupuesto%20gratuito%20y%20consultar%20precios%20en%20Jerez." target="_blank" rel="noopener noreferrer" style="color:var(--delgado-wa); font-weight:800; text-decoration:underline;">+34 601 36 92 38</a> y Laura te responderá al momento.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-editorial-item reveal-on-scroll delay-4">
+            <div class="faq-editorial-question">
+              <span>¿Dónde puedo comprobar la nota de mi examen teórico o práctico de la DGT?</span>
+              <span class="faq-editorial-indicator">+</span>
+            </div>
+            <div class="faq-editorial-answer">
+              <p>
+                Puedes consultar tu calificación oficial directamente en el Portal de Resultados de la DGT desde el botón situado justo debajo de estas líneas, introduciendo tu NIF/NIE, fecha de nacimiento, fecha de examen y clase de permiso.
+              </p>
+            </div>
+          </div>
+
+          <!-- Banner Utilidad Pública Notas DGT -->
+          <div class="dgt-results-banner reveal-on-scroll">
+            <div>
+              <span style="font-family:var(--font-mono); font-size:0.72rem; color:var(--delgado-sky-glow); font-weight:700; letter-spacing:0.1em; text-transform:uppercase; display:block; margin-bottom:4px;">PORTAL OFICIAL DGT</span>
+              <h3 style="font-family:var(--font-display); font-size:1.35rem; font-weight:800; color:#FFFFFF; margin-bottom:4px;">¿Ya te has examinado? Consulta tus notas</h3>
+              <p style="font-size:0.9rem; color:#CBD5E1; margin:0;">Acceso directo a la plataforma de consulta de calificaciones de la Dirección General de Tráfico.</p>
+            </div>
+            <a href="https://sedeclave.dgt.gob.es/WEB_NOTP_CONSULTA/consultaNota.faces" target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue">
+              <span>Comprobar Resultado</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SEDE FÍSICA EN JEREZ DE LA FRONTERA, HORARIOS Y MAPA INTERACTIVO
+         ====================================================================== -->
+    <section class="contact-editorial-section" id="contacto">
+      <div class="container">
+        <div class="section-editorial-header reveal-on-scroll" style="text-align:center; max-width:780px; margin:0 auto 2.25rem auto;">
+          <span class="section-editorial-index">LOCALIZACIÓN Y HORARIOS</span>
+          <h2 class="section-editorial-title">
+            Tu autoescuela en <em>Av. de Nazaret, 48 (Jerez)</em>
+          </h2>
+          <p class="section-editorial-desc" style="margin:0 auto;">
+            Ven a visitarnos al Barrio de Los Albarizones o escríbenos por WhatsApp para pedir tu presupuesto gratuito sin compromiso.
+          </p>
+        </div>
+
+        <div class="contact-architectural-grid reveal-on-scroll">
+          <!-- Columna Izquierda: Información y Contacto Directo -->
+          <div class="contact-text-column">
+            <div>
+              <div style="display:inline-flex; align-items:center; gap:8px; background:rgba(0, 25, 251, 0.2); border:1px solid rgba(77, 124, 254, 0.4); padding:5px 14px; border-radius:999px; font-family:var(--font-mono); font-size:0.72rem; font-weight:800; color:#93C5FD; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1rem;">
+                <span>SEDE PRINCIPAL · JEREZ DE LA FRONTERA (CÁDIZ)</span>
+              </div>
+
+              <h3 style="font-family:var(--font-display); font-size:1.55rem; font-weight:900; color:#FFFFFF; margin-bottom:0.35rem;">Autoescuela EASY · Centro de Formación</h3>
+              <p style="font-size:0.96rem; color:#E2E8F0; line-height:1.5; margin-bottom:1.35rem;">
+                Avenida de Nazaret, 48 <span style="color:#94A3B8;">· Los Albarizones, 11406 Jerez de la Frontera, Cádiz</span>
+              </p>
+
+              <div class="contact-cards-subgrid">
+                <div style="background:#070D1F; border:1px solid rgba(77, 124, 254, 0.24); border-radius:12px; padding:0.85rem 1rem;">
+                  <span style="font-family:var(--font-mono); font-size:0.66rem; color:var(--delgado-sky-glow); font-weight:800; text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:0.3rem;">TELÉFONO DIRECTO</span>
+                  <a href="tel:+34601369238" style="font-family:var(--font-display); font-size:1.12rem; font-weight:800; color:#FFFFFF; display:block;">601 36 92 38</a>
+                  <span style="font-size:0.78rem; color:#94A3B8; display:block; margin-top:2px;">Atención en horario comercial</span>
+                </div>
+
+                <div style="background:#070D1F; border:1px solid rgba(37, 211, 102, 0.32); border-radius:12px; padding:0.85rem 1rem;">
+                  <span style="font-family:var(--font-mono); font-size:0.66rem; color:var(--delgado-wa); font-weight:800; text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:0.3rem;">WHATSAPP DIRECTO</span>
+                  <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%97%20Quiero%20informaci%C3%B3n%20sobre%20precios%2C%20horarios%20y%20matr%C3%ADcula%20en%20Jerez." target="_blank" rel="noopener noreferrer" style="font-family:var(--font-display); font-size:1.12rem; font-weight:800; color:#FFFFFF; display:block;">+34 601 36 92 38</a>
+                  <span style="font-size:0.78rem; color:#94A3B8; display:block; margin-top:2px;">Respuesta rápida sin compromiso</span>
+                </div>
+
+                <div style="background:#070D1F; border:1px solid rgba(77, 124, 254, 0.24); border-radius:12px; padding:0.85rem 1rem;">
+                  <span style="font-family:var(--font-mono); font-size:0.66rem; color:var(--delgado-sky-glow); font-weight:800; text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:0.3rem;">INSTAGRAM Y EMAIL</span>
+                  <a href="https://www.instagram.com/autoescuelaeasy/" target="_blank" rel="noopener noreferrer" style="font-size:0.9rem; font-weight:800; color:#FFFFFF; display:block;">@autoescuelaeasy</a>
+                  <a href="mailto:info@autoescuelaeasy.es" style="font-size:0.82rem; font-weight:600; color:#CBD5E1; word-break:break-all; display:block; margin-top:2px;">info@autoescuelaeasy.es</a>
+                </div>
+
+                <div style="background:#070D1F; border:1px solid rgba(77, 124, 254, 0.24); border-radius:12px; padding:0.85rem 1rem;">
+                  <span style="font-family:var(--font-mono); font-size:0.66rem; color:var(--delgado-sky-glow); font-weight:800; text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:0.3rem;">EQUIPO Y CENTRO DGT</span>
+                  <span style="font-size:0.88rem; font-weight:700; color:#FFFFFF; display:block;">Laura · Raúl · Samuel · José Antonio</span>
+                  <span style="font-size:0.8rem; color:#CBD5E1; display:block; margin-top:2px;">Código DGT: CA0508-01</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://www.google.com/maps/place/Autoescuela+EASY/@36.6767139,-6.1100782,17z/data=!3m1!4b1!4m6!3m5!1s0xd0dc702811b313f:0xf420aef18fa5aa92!8m2!3d36.6767139!4d-6.1100782!16s%2Fg%2F11bzz21c0y?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue" style="width:100%; border-radius:12px;">
+              <span>Abrir Ubicación en Google Maps</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <!-- Columna Derecha: Horarios de Secretaría -->
+          <div class="contact-hours-column">
+            <div>
+              <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(56, 189, 248, 0.12); border:1px solid rgba(56, 189, 248, 0.3); padding:5px 14px; border-radius:999px; font-family:var(--font-mono); font-size:0.72rem; font-weight:800; color:var(--delgado-sky-glow); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1rem;">
+                <span>HORARIOS DE ATENCIÓN</span>
+              </div>
+
+              <h3 style="font-family:var(--font-display); font-size:1.38rem; font-weight:900; color:#FFFFFF; margin-bottom:0.35rem;">Horarios de Secretaría</h3>
+              <p style="font-size:0.88rem; color:#94A3B8; line-height:1.5; margin-bottom:1.15rem;">
+                Atención presencial en Av. de Nazaret, 48 para matrículas, información de tarifas, prácticas y trámites DGT:
+              </p>
+
+              <div class="schedule-list">
+                <div class="schedule-item">
+                  <span class="schedule-day">Lunes a Viernes</span>
+                  <span class="schedule-time">10:00 - 13:00 &nbsp;|&nbsp; 17:00 - 20:00</span>
+                </div>
+                <div class="schedule-item">
+                  <span class="schedule-day">Sábados y Domingos</span>
+                  <span class="schedule-time" style="color:#94A3B8;">Cerrado</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding:1rem 1.15rem; background:rgba(37, 211, 102, 0.08); border:1px solid rgba(37, 211, 102, 0.28); border-radius:12px; font-size:0.88rem; color:#E2E8F0; line-height:1.5;">
+              <strong style="color:#FFFFFF;">¿Prefieres escribirnos ahora?</strong><br />
+              Envíanos un WhatsApp al <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20Quisiera%20informaci%C3%B3n%20sobre%20matr%C3%ADcula%20y%20precios%20en%20Jerez." target="_blank" rel="noopener noreferrer" style="color:var(--delgado-wa); font-weight:800; text-decoration:underline;">+34 601 36 92 38</a> y Laura te informará sin compromiso.
+            </div>
+          </div>
+        </div>
+
+        <!-- Mapa Interactivo de Av. de Nazaret, 48 - Jerez de la Frontera -->
+        <div class="map-embed-wrap reveal-on-scroll delay-1">
+          <iframe
+            title="Ubicación de Autoescuela EASY en Avenida de Nazaret, 48, Jerez de la Frontera"
+            src="https://maps.google.com/maps?q=Autoescuela%20EASY%20Avenida%20de%20Nazaret%2048%2011406%20Jerez%20de%20la%20Frontera&t=m&z=16&output=embed&iwloc=near"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER LEGAL COMPLETO
+       ======================================================================== -->
+  <footer class="site-editorial-footer">
+    <div class="container">
+      <div class="footer-columns-grid">
+        <div>
+          <div style="display:inline-flex; align-items:center; margin-bottom:1.35rem;">
+            <img src="assets/logo.png" alt="Autoescuela EASY Centro de Formación" style="height:60px; width:auto; max-width:290px; object-fit:contain; filter: drop-shadow(0 2px 10px rgba(255, 255, 255, 0.22)) brightness(1.15);" />
+          </div>
+          <p style="font-size:0.92rem; color:#94A3B8; line-height:1.7; margin-bottom:1.25rem;">
+            <strong style="color:#FFFFFF;">Autoescuela EASY · Centro de Formación</strong>. Desde 2015 formando conductores en Jerez de la Frontera (Cádiz) con un 82% de aprobados en examen práctico B (DGT) y 4.9★ en Google. ¡Empieza a conducir y <strong>#hazlofácil</strong>!
+          </p>
+          <div style="font-family:var(--font-mono); font-size:0.75rem; color:#CBD5E1; line-height:1.7;">
+            Razón Social: <strong>RALOB EASY FORMACION S.L.</strong><br />
+            CIF: <strong>B06914808</strong> · Código DGT: <strong>CA0508-01</strong><br />
+            Domicilio Social: Av. de Nazaret, 48, 11406 Jerez de la Frontera (Cádiz)
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Permisos y Cursos</h4>
+          <ul class="footer-links-list">
+            <li><a href="#permisos">Permiso B Coche (Renault Mégane)</a></li>
+            <li><a href="#permisos">Motos AM, A1, A2 (Kawasaki Z) y A</a></li>
+            <li><a href="#permisos">Remolque B96 y B+E</a></li>
+            <li><a href="#permisos">Camión C1, C y Tráiler C+E</a></li>
+            <li><a href="#permisos">Autobús D1, D y D+E</a></li>
+            <li><a href="#profesional">CAP Inicial / Continuo · FUNDAE · ADR</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Autoescuela EASY</h4>
+          <ul class="footer-links-list">
+            <li><a href="#metodo">El Método EASY (#hazlofácil)</a></li>
+            <li><a href="#profesional">Equipo: Laura, Raúl, Samuel y José Antonio</a></li>
+            <li><a href="#opiniones">Opiniones Verificadas (4.9 ★)</a></li>
+            <li><a href="#faq">Preguntas Frecuentes</a></li>
+            <li><a href="https://sedeclave.dgt.gob.es/WEB_NOTP_CONSULTA/consultaNota.faces" target="_blank" rel="noopener noreferrer">Comprobar Notas DGT ↗</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contacto y Redes</h4>
+          <ul class="footer-links-list">
+            <li><a href="tel:+34601369238">Teléfono: 601 36 92 38</a></li>
+            <li><a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%97%20Quiero%20informaci%C3%B3n%20sobre%20precios%2C%20horarios%20y%20matr%C3%ADcula%20en%20Jerez." target="_blank" rel="noopener noreferrer">WhatsApp: +34 601 36 92 38</a></li>
+            <li><a href="mailto:info@autoescuelaeasy.es">info@autoescuelaeasy.es</a></li>
+            <li><a href="https://www.instagram.com/autoescuelaeasy/" target="_blank" rel="noopener noreferrer">Instagram: @autoescuelaeasy</a></li>
+            <li><a href="https://www.google.com/maps/place/Autoescuela+EASY/@36.6767139,-6.1100782,17z/data=!3m1!4b1!4m6!3m5!1s0xd0dc702811b313f:0xf420aef18fa5aa92!8m2!3d36.6767139!4d-6.1100782!16s%2Fg%2F11bzz21c0y?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Google Maps · Av. de Nazaret, 48 ↗</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>
+          © <span id="currentYear">2026</span> Autoescuela EASY · RALOB EASY FORMACION S.L. (CIF B06914808). Todos los derechos reservados.
+        </div>
+        <div class="footer-legal-links">
+          <a href="#contacto">Av. de Nazaret, 48 · Jerez de la Frontera</a>
+          <a href="#faq">Consulta DGT</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       BOTÓN FLOTANTE DE WHATSAPP (APARECE TRAS FINALIZAR EL VIDEO INTRO)
+       ======================================================================== -->
+  <a href="https://wa.me/34601369238?text=%C2%A1Hola%2C%20Autoescuela%20EASY!%20%F0%9F%9A%97%20He%20visto%20vuestra%20web%20y%20quiero%20informaci%C3%B3n%20sobre%20matr%C3%ADcula%2C%20precios%20y%20horarios%20en%20Jerez." target="_blank" rel="noopener noreferrer" class="floating-brand-wa" aria-label="Contactar por WhatsApp con Autoescuela EASY">
+    <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-.872 1.406-.872 2.375 0 .969.897 1.905 1.021 2.053.124.149 1.762 2.69 4.268 3.774.596.257 1.061.411 1.424.527.599.191 1.144.164 1.575.1.48-.072 1.476-.603 1.684-1.185.208-.582.208-1.08.146-1.185-.062-.105-.229-.168-.526-.317zM12.004 2.005c-5.514 0-10 4.486-10 10 0 1.76.459 3.475 1.332 4.992l-1.417 5.176 5.297-1.389c1.463.799 3.111 1.221 4.788 1.221 5.514 0 10-4.486 10-10s-4.486-10-10-10zm0 18.283c-1.503 0-2.977-.406-4.264-1.173l-.306-.182-3.17.831.846-3.09-.199-.316c-.838-1.336-1.282-2.884-1.282-4.483 0-4.636 3.772-8.409 8.375-8.409 2.24 0 4.346.873 5.93 2.457s2.457 3.69 2.457 5.93c0 4.637-3.772 8.41-8.386 8.41z"></path>
+    </svg>
+    <div class="wa-label-box">
+      <span class="wa-label-title">Autoescuela EASY</span>
+      <span class="wa-label-sub">WhatsApp Directo</span>
+    </div>
+  </a>
+
+  <!-- ========================================================================
+       SCRIPTS INTERACTIVOS (VIDEO INTRO -> REVELACIÓN, MENÚ, OPINIONES, FAQ)
+       ======================================================================== -->
+  <script>
+    (function () {
+      // 0. Control de Video Intro en Home (Solo Video -> Revelación tras finalizar)
+      var introRevealed = false;
+      var safetyTimeout = null;
+
+      function revealSiteAfterIntro() {
+        if (introRevealed) return;
+        introRevealed = true;
+        if (safetyTimeout) clearTimeout(safetyTimeout);
+        document.body.classList.add('video-intro-done');
+      }
+
+      var isMobileView = window.matchMedia('(max-width: 768px)').matches;
+      var activeVideo = document.getElementById(isMobileView ? 'heroVideoMobile' : 'heroVideoDesktop');
+      var inactiveVideo = document.getElementById(isMobileView ? 'heroVideoDesktop' : 'heroVideoMobile');
+
+      if (inactiveVideo) {
+        inactiveVideo.pause();
+      }
+
+      if (activeVideo) {
+        activeVideo.muted = true;
+        activeVideo.playsInline = true;
+        activeVideo.addEventListener('ended', revealSiteAfterIntro);
+        activeVideo.addEventListener('error', revealSiteAfterIntro);
+
+        window.addEventListener('scroll', function onFirstScroll() {
+          if (window.scrollY > 30) {
+            revealSiteAfterIntro();
+            window.removeEventListener('scroll', onFirstScroll);
+          }
+        }, { passive: true });
+
+        var playPromise = activeVideo.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(function () {
+            revealSiteAfterIntro();
+          });
+        }
+
+        // Timeout de seguridad (si hay retraso de carga, muestra la interfaz a los 4.5s)
+        safetyTimeout = setTimeout(revealSiteAfterIntro, 4500);
+      } else {
+        revealSiteAfterIntro();
+      }
+
+      // 1. Menu Overlay
+      var openBtn = document.getElementById('openMenuBtn');
+      var closeBtn = document.getElementById('closeMenuBtn');
+      var overlayMenu = document.getElementById('overlayMenu');
+      var navLinks = document.querySelectorAll('.overlay-nav-link');
+
+      function openMenu() {
+        if (overlayMenu) {
+          overlayMenu.classList.add('is-open');
+          overlayMenu.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+        }
+      }
+
+      function closeMenu() {
+        if (overlayMenu) {
+          overlayMenu.classList.remove('is-open');
+          overlayMenu.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        }
+      }
+
+      if (openBtn) openBtn.addEventListener('click', openMenu);
+      if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+      navLinks.forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      // 2. Nav Scroll Background
+      var nav = document.querySelector('.editorial-nav');
+      window.addEventListener('scroll', function () {
+        if (!nav) return;
+        if (window.scrollY > 80) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      }, { passive: true });
+
+      // 3. Carrusel de Testimonios (4 reseñas reales de Google)
+      var testimonialSlides = document.querySelectorAll('.testimonial-slide');
+      var testimonialDots = document.querySelectorAll('.testimonial-dot');
+      var prevBtn = document.getElementById('prevTestimonialBtn');
+      var nextBtn = document.getElementById('nextTestimonialBtn');
+      var stage = document.getElementById('testimonialStage');
+      var currentTestimonialIndex = 0;
+      var totalTestimonials = testimonialSlides.length;
+      var testimonialInterval = null;
+
+      function showTestimonial(index) {
+        if (!totalTestimonials) return;
+        if (index < 0) index = totalTestimonials - 1;
+        if (index >= totalTestimonials) index = 0;
+        currentTestimonialIndex = index;
+
+        testimonialSlides.forEach(function (slide, i) {
+          slide.classList.toggle('is-active', i === currentTestimonialIndex);
+        });
+        testimonialDots.forEach(function (dot, i) {
+          dot.classList.toggle('is-active', i === currentTestimonialIndex);
+        });
+      }
+
+      function startTestimonialTimer() {
+        stopTestimonialTimer();
+        testimonialInterval = setInterval(function () {
+          showTestimonial(currentTestimonialIndex + 1);
+        }, 5500);
+      }
+
+      function stopTestimonialTimer() {
+        if (testimonialInterval) {
+          clearInterval(testimonialInterval);
+          testimonialInterval = null;
+        }
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', function () {
+          showTestimonial(currentTestimonialIndex - 1);
+          startTestimonialTimer();
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', function () {
+          showTestimonial(currentTestimonialIndex + 1);
+          startTestimonialTimer();
+        });
+      }
+
+      testimonialDots.forEach(function (dot) {
+        dot.addEventListener('click', function () {
+          var targetIndex = parseInt(dot.getAttribute('data-slide'), 10);
+          showTestimonial(targetIndex);
+          startTestimonialTimer();
+        });
+      });
+
+      if (stage) {
+        stage.addEventListener('mouseenter', stopTestimonialTimer);
+        stage.addEventListener('mouseleave', startTestimonialTimer);
+      }
+
+      startTestimonialTimer();
+
+      // 4. FAQ Acordeón
+      var faqItems = document.querySelectorAll('.faq-editorial-item');
+      faqItems.forEach(function (item) {
+        var questionBtn = item.querySelector('.faq-editorial-question');
+        if (questionBtn) {
+          questionBtn.addEventListener('click', function () {
+            var isOpen = item.classList.contains('active');
+            faqItems.forEach(function (other) { other.classList.remove('active'); });
+            if (!isOpen) item.classList.add('active');
+          });
+        }
+      });
+
+      // 5. Intersection Observer para animaciones al hacer scroll
+      var reveals = document.querySelectorAll('.reveal-on-scroll');
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries, obs) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-revealed');
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        reveals.forEach(function (el) { observer.observe(el); });
+      } else {
+        reveals.forEach(function (el) { el.classList.add('is-revealed'); });
+      }
+
+      // 6. Año dinámico
+      var yearSpan = document.getElementById('currentYear');
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    })();
+  </script>
+</body>
+</html>
