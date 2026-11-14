@@ -700,11 +700,29 @@
 
     @media (max-width: 768px) {
       .hero-editorial {
-        padding-bottom: 84px;
-        padding-top: 96px;
+        align-items: flex-start;
+        padding-top: clamp(96px, 14vh, 132px);
+        padding-bottom: 36px;
+      }
+      .hero-vignette {
+        background: linear-gradient(
+          to bottom,
+          rgba(4, 7, 17, 0.82) 0%,
+          rgba(4, 7, 17, 0.54) 38%,
+          rgba(4, 7, 17, 0.14) 68%,
+          rgba(4, 7, 17, 0.38) 100%
+        );
       }
       .hero-editorial-inner {
         padding: 0 1rem;
+      }
+      .hero-lead-editorial {
+        margin: 0 auto;
+        text-align: center;
+      }
+      .hero-editorial-title {
+        text-align: center;
+        font-size: clamp(2rem, 7.6vw, 2.75rem);
       }
     }
 
